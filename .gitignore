@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+data/*
+!data/.gitkeep
+
+results/*.pt
+results/**/coop_ctx_*.pt
+
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+Thumbs.db

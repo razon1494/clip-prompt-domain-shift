@@ -1,0 +1,11 @@
+dataset_name: OfficeHome
+data_root: data/OfficeHome
+backbone: ViT-B-16
+n_ctx: 16
+ctx_init: null
+batch_size: 64
+lr: 0.002
+epochs: 30
+val_ratio: 0.1
+seeds: [0, 1, 2]
+num_workers: 4
