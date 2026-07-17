@@ -4,8 +4,19 @@ import torch.nn as nn
 
 
 def load_clip(backbone="ViT-B-16", device="cuda"):
-    model, _, preprocess = open_clip.create_model_and_transforms(backbone, pretrained="openai")
-    tokenizer = open_clip.get_tokenizer(backbone)
+    # OpenAI checkpoints were trained with QuickGELU. open_clip 2.x applied it
+    # implicitly for pretrained="openai"; 3.x requires the explicit -quickgelu
+    # config and otherwise loads a mismatched activation that silently degrades
+    # accuracy. Prefer -quickgelu, fall back for versions that lack the tag.
+    candidates = [backbone] if backbone.endswith("-quickgelu") else [f"{backbone}-quickgelu", backbone]
+    for name in candidates:
+        try:
+            model, _, preprocess = open_clip.create_model_and_transforms(name, pretrained="openai")
+            break
+        except Exception:
+            if name == candidates[-1]:
+                raise
+    tokenizer = open_clip.get_tokenizer(name)
     model = model.to(device).eval()
     for p in model.parameters():
         p.requires_grad_(False)
@@ -68,12 +79,16 @@ class TextEncoder(nn.Module):
         # CLIP's text transformer is causal; omitting this mask silently
         # changes attention to bidirectional and corrupts text features.
         self.register_buffer("attn_mask", clip_model.attn_mask, persistent=False)
+        # open_clip 2.x transformers take [seq, batch, dim]; 3.x are batch-first.
+        self.batch_first = getattr(clip_model.transformer, "batch_first", False)
 
     def forward(self, prompts, tokenized_prompts):
         x = prompts + self.positional_embedding.type(prompts.dtype)
-        x = x.permute(1, 0, 2)
+        if not self.batch_first:
+            x = x.permute(1, 0, 2)
         x = self.transformer(x, attn_mask=self.attn_mask)
-        x = x.permute(1, 0, 2)
+        if not self.batch_first:
+            x = x.permute(1, 0, 2)
         x = self.ln_final(x).type(prompts.dtype)
         x = x[torch.arange(x.shape[0]), tokenized_prompts.argmax(dim=-1)] @ self.text_projection
         return x
