@@ -1,0 +1,138 @@
+[
+  {
+    "method": "zeroshot",
+    "target_domain": "art_painting",
+    "target_acc": 0.978515625,
+    "ci_lo": 0.9716796875,
+    "ci_hi": 0.98486328125,
+    "n_target": 2048,
+    "per_class_acc": {
+      "dog": 0.9656992084432717,
+      "elephant": 0.9803921568627451,
+      "giraffe": 0.9859649122807017,
+      "guitar": 0.967391304347826,
+      "horse": 0.9950248756218906,
+      "house": 0.9966101694915255,
+      "person": 0.9688195991091314
+    }
+  },
+  {
+    "method": "linear_probe",
+    "target_domain": "art_painting",
+    "target_acc": 0.97802734375,
+    "ci_lo": 0.9716796875,
+    "ci_hi": 0.984375,
+    "n_target": 2048,
+    "per_class_acc": {
+      "dog": 0.9709762532981531,
+      "elephant": 0.9725490196078431,
+      "giraffe": 0.9894736842105263,
+      "guitar": 0.9728260869565217,
+      "horse": 0.9900497512437811,
+      "house": 0.9932203389830508,
+      "person": 0.9665924276169265
+    }
+  },
+  {
+    "method": "zeroshot",
+    "target_domain": "cartoon",
+    "target_acc": 0.9927474402730375,
+    "ci_lo": 0.9893344709897611,
+    "ci_hi": 0.9957337883959044,
+    "n_target": 2344,
+    "per_class_acc": {
+      "dog": 0.9974293059125964,
+      "elephant": 0.9978118161925602,
+      "giraffe": 1.0,
+      "guitar": 1.0,
+      "horse": 0.9753086419753086,
+      "house": 0.9930555555555556,
+      "person": 0.9876543209876543
+    }
+  },
+  {
+    "method": "linear_probe",
+    "target_domain": "cartoon",
+    "target_acc": 0.9872013651877133,
+    "ci_lo": 0.9825085324232082,
+    "ci_hi": 0.9914675767918089,
+    "n_target": 2344,
+    "per_class_acc": {
+      "dog": 0.9948586118251928,
+      "elephant": 0.9956236323851203,
+      "giraffe": 1.0,
+      "guitar": 1.0,
+      "horse": 0.9444444444444444,
+      "house": 0.9895833333333334,
+      "person": 0.9876543209876543
+    }
+  },
+  {
+    "method": "zeroshot",
+    "target_domain": "photo",
+    "target_acc": 0.9994011976047904,
+    "ci_lo": 0.9981886227544909,
+    "ci_hi": 1.0,
+    "n_target": 1670,
+    "per_class_acc": {
+      "dog": 1.0,
+      "elephant": 1.0,
+      "giraffe": 1.0,
+      "guitar": 1.0,
+      "horse": 0.9949748743718593,
+      "house": 1.0,
+      "person": 1.0
+    }
+  },
+  {
+    "method": "linear_probe",
+    "target_domain": "photo",
+    "target_acc": 0.9958083832335329,
+    "ci_lo": 0.9922155688622755,
+    "ci_hi": 0.9982035928143712,
+    "n_target": 1670,
+    "per_class_acc": {
+      "dog": 1.0,
+      "elephant": 1.0,
+      "giraffe": 1.0,
+      "guitar": 0.9946236559139785,
+      "horse": 0.9949748743718593,
+      "house": 0.9821428571428571,
+      "person": 1.0
+    }
+  },
+  {
+    "method": "zeroshot",
+    "target_domain": "sketch",
+    "target_acc": 0.8943751590735556,
+    "ci_lo": 0.8841944515143803,
+    "ci_hi": 0.9035377958768135,
+    "n_target": 3929,
+    "per_class_acc": {
+      "dog": 0.8044041450777202,
+      "elephant": 0.9554054054054054,
+      "giraffe": 0.7197875166002656,
+      "guitar": 0.9901315789473685,
+      "horse": 0.9889705882352942,
+      "house": 1.0,
+      "person": 0.96875
+    }
+  },
+  {
+    "method": "linear_probe",
+    "target_domain": "sketch",
+    "target_acc": 0.9073555612115042,
+    "ci_lo": 0.8984410791550013,
+    "ci_hi": 0.9160091626368032,
+    "n_target": 3929,
+    "per_class_acc": {
+      "dog": 0.8549222797927462,
+      "elephant": 0.9013513513513514,
+      "giraffe": 0.8260292164674635,
+      "guitar": 0.9654605263157895,
+      "horse": 0.9718137254901961,
+      "house": 0.975,
+      "person": 0.9875
+    }
+  }
+]
