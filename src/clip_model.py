@@ -104,11 +104,17 @@ class CoOpCLIP(nn.Module):
         self.logit_scale = clip_model.logit_scale
 
     def forward(self, images):
-        # Image branch has no learnable parameters, so it is safe (and saves
-        # memory) to keep it out of the autograd graph entirely.
-        with torch.no_grad():
-            image_features = self.clip_model.encode_image(images)
-            image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+        # Accepts raw images [B, 3, H, W] or precomputed normalized features
+        # [B, dim] from src.cache — the image branch is frozen, so cached
+        # features are mathematically identical to encoding on the fly.
+        if images.dim() == 2:
+            image_features = images
+        else:
+            # Image branch has no learnable parameters, so it is safe (and
+            # saves memory) to keep it out of the autograd graph entirely.
+            with torch.no_grad():
+                image_features = self.clip_model.encode_image(images)
+                image_features = image_features / image_features.norm(dim=-1, keepdim=True)
 
         prompts = self.prompt_learner()
         text_features = self.text_encoder(prompts, self.tokenized_prompts)

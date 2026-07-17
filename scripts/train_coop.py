@@ -12,8 +12,9 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 import numpy as np
 import torch
 import yaml
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, TensorDataset
 
+from src.cache import domain_feature_map, feature_tensors
 from src.clip_model import CoOpCLIP, load_clip
 from src.data import DomainDataset, ImageListDataset, split_train_val
 from src.metrics import bootstrap_ci, per_class_accuracy
@@ -39,8 +40,18 @@ def evaluate(model, loader, device):
 
 
 def train_one_fold(cfg, dataset, target_domain, seed, device, out_dir):
+    use_cache = cfg.get("use_feature_cache", False)
+    if use_cache:
+        # Feature extraction consumes no torch RNG, so doing it before
+        # set_seed/model init keeps runs comparable with the uncached path.
+        clip_model, preprocess, tokenizer = load_clip(cfg["backbone"], device)
+        feat_by_path = domain_feature_map(
+            dataset, dataset.domains, clip_model, preprocess, device, cfg["backbone"], cfg["num_workers"]
+        )
+
     set_seed(seed)
-    clip_model, preprocess, tokenizer = load_clip(cfg["backbone"], device)
+    if not use_cache:
+        clip_model, preprocess, tokenizer = load_clip(cfg["backbone"], device)
 
     source_domains = [d for d in dataset.domains if d != target_domain]
     source_samples = []
@@ -49,14 +60,26 @@ def train_one_fold(cfg, dataset, target_domain, seed, device, out_dir):
     train_samples, val_samples = split_train_val(source_samples, cfg["val_ratio"], seed)
     target_samples = dataset.domain_samples(target_domain)
 
-    common = dict(num_workers=cfg["num_workers"], persistent_workers=cfg["num_workers"] > 0)
-    train_loader = DataLoader(
-        ImageListDataset(train_samples, preprocess), batch_size=cfg["batch_size"], shuffle=True, drop_last=True, **common
-    )
-    val_loader = DataLoader(ImageListDataset(val_samples, preprocess), batch_size=cfg["batch_size"], shuffle=False, **common)
-    target_loader = DataLoader(
-        ImageListDataset(target_samples, preprocess), batch_size=cfg["batch_size"], shuffle=False, **common
-    )
+    if use_cache:
+        train_loader = DataLoader(
+            TensorDataset(*feature_tensors(train_samples, feat_by_path)),
+            batch_size=cfg["batch_size"], shuffle=True, drop_last=True,
+        )
+        val_loader = DataLoader(
+            TensorDataset(*feature_tensors(val_samples, feat_by_path)), batch_size=cfg["batch_size"]
+        )
+        target_loader = DataLoader(
+            TensorDataset(*feature_tensors(target_samples, feat_by_path)), batch_size=cfg["batch_size"]
+        )
+    else:
+        common = dict(num_workers=cfg["num_workers"], persistent_workers=cfg["num_workers"] > 0)
+        train_loader = DataLoader(
+            ImageListDataset(train_samples, preprocess), batch_size=cfg["batch_size"], shuffle=True, drop_last=True, **common
+        )
+        val_loader = DataLoader(ImageListDataset(val_samples, preprocess), batch_size=cfg["batch_size"], shuffle=False, **common)
+        target_loader = DataLoader(
+            ImageListDataset(target_samples, preprocess), batch_size=cfg["batch_size"], shuffle=False, **common
+        )
 
     model = CoOpCLIP(
         dataset.classnames, clip_model, tokenizer, cfg["n_ctx"], cfg.get("ctx_init"), device
