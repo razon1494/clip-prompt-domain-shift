@@ -63,6 +63,7 @@ python scripts/eval_baselines.py --config configs/pacs.yaml        # zero-shot +
 python scripts/train_coop.py     --config configs/pacs.yaml        # CoOp, all folds x seeds (resumable)
 python scripts/aggregate_results.py --results_dir results/PACS     # markdown results table
 python scripts/plot_results.py      --results_dir results/PACS     # per-domain chart
+python scripts/interpret_prompts.py --results_dir results/PACS     # nearest tokens of learned prompts
 ```
 
 Same commands with `configs/officehome.yaml` for OfficeHome. All experiments run on a
@@ -70,8 +71,69 @@ single 6GB consumer GPU (CLIP backbone frozen throughout; only context vectors t
 
 ## Results
 
-*(In progress — results tables, per-domain charts, slice analysis, and learned-prompt
-token analysis will be added as runs complete.)*
+Held-out domain accuracy (%), CLIP ViT-B/16. CoOp is mean±std over 3 seeds; feature
+caching verified equivalent to uncached training before any full runs.
+
+**PACS**
+
+| Method | art_painting | cartoon | photo | sketch | Mean |
+|---|---|---|---|---|---|
+| Zero-shot (ensemble) | 97.9 | 99.3 | 99.9 | 89.4 | 96.6 |
+| Linear probe | 97.8 | 98.7 | 99.6 | 90.7 | 96.7 |
+| CoOp | 97.9±0.1 | 98.4±0.2 | 98.9±1.2 | **87.8±1.1** | 95.8 |
+
+**OfficeHome**
+
+| Method | Art | Clipart | Product | Real World | Mean |
+|---|---|---|---|---|---|
+| Zero-shot (ensemble) | 83.6 | 67.5 | 90.0 | 89.9 | 82.8 |
+| Linear probe | 78.9 | 67.9 | 89.7 | 88.8 | 81.3 |
+| CoOp | 83.1±0.2 | **70.7±0.6** | **91.5±0.3** | **90.9±0.2** | **84.0** |
+
+![PACS per-domain accuracy](results/PACS/per_domain_accuracy.png)
+![OfficeHome per-domain accuracy](results/OfficeHome/per_domain_accuracy.png)
+
+Sanity anchor: our zero-shot means (96.6 PACS, 82.8 OfficeHome) match published
+CLIP ViT-B/16 numbers, validating the pipeline before trusting the new results.
+
+## Analysis
+
+**The two benchmarks land on opposite sides of a trade-off, and that contrast is
+the finding.**
+
+- **PACS: CoOp loses to zero-shot** (95.8 vs 96.6 mean), despite training on ~7k
+  labeled source images. PACS's shifts are extreme style changes and zero-shot is
+  near ceiling: learned prompts have little to gain in class discrimination and pay
+  a style-overfitting cost — largest exactly on the largest shift (sketch, −1.6).
+  CoOp also shows seed instability that averages hide (photo: 97.2/99.6/99.8).
+- **OfficeHome: CoOp wins** (84.0 vs 82.8 mean; Clipart +3.2). Shifts are milder,
+  but 65 fine-grained classes leave zero-shot far from ceiling — sharper learned
+  class boundaries outweigh the style cost.
+- **Linear probing is the most brittle** adapter under style shift (OfficeHome Art:
+  78.9 vs 83.6 zero-shot): a task-specific head departs further from CLIP's semantic
+  structure than prompt-space adaptation does.
+
+Summary: **prompt learning helps when the bottleneck is class discrimination and
+hurts when the bottleneck is style generalization.** This is the landscape that
+generalizable prompt-learning methods (CoCoOp, Style-Pro, DiSa) are designed for:
+keep the discrimination gains, remove the style-overfitting cost.
+
+**Prompt interpretability (null result).** Decoding learned context vectors to
+their nearest vocabulary tokens yields no interpretable words (random fragments,
+consistent across seeds) — replicating the observation in the original CoOp paper
+that learned prompts lie off the token-embedding manifold. The style-overfitting
+evidence above is therefore behavioral (per-domain slices), not token-level; a
+sharper probe (e.g., a domain classifier trained on context vectors, or CKA between
+text features under learned vs. hand-written prompts) is future work.
+
+## Limitations & future work
+
+- Single backbone (ViT-B/16); no CoCoOp/style-aware baselines yet (compute-bounded).
+- No augmentation during prompt training (deterministic features enable exact
+  caching; all trained methods see identical inputs, so comparisons are internally
+  consistent).
+- Natural next steps: CoCoOp and Style-Pro-style regularization, corruption shift
+  as a second axis, and test-time prompt adaptation on unlabeled target data.
 
 ## References
 

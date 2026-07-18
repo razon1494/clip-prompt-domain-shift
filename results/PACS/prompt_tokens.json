@@ -1,0 +1,3290 @@
+{
+  "coop_ctx_art_painting_seed0": [
+    {
+      "position": 0,
+      "tokens": [
+        "thelastjedi",
+        "sprint",
+        "magento",
+        "sunbathing",
+        "actual"
+      ],
+      "scores": [
+        0.203,
+        0.181,
+        0.175,
+        0.166,
+        0.166
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "grimm",
+        "clio",
+        "mercedes",
+        "mccartney",
+        "algae"
+      ],
+      "scores": [
+        0.181,
+        0.18,
+        0.178,
+        0.175,
+        0.174
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "amor",
+        "laver",
+        "prem",
+        "\u0142\u012a",
+        "endeav"
+      ],
+      "scores": [
+        0.213,
+        0.187,
+        0.187,
+        0.186,
+        0.171
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "/.",
+        "tnx",
+        "excel",
+        "ortega",
+        "limo"
+      ],
+      "scores": [
+        0.187,
+        0.167,
+        0.164,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "<start_of_text>",
+        "has",
+        "only",
+        "from",
+        "':"
+      ],
+      "scores": [
+        0.261,
+        0.206,
+        0.198,
+        0.198,
+        0.197
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "alli",
+        "mel",
+        "ley",
+        "renault",
+        "hughes"
+      ],
+      "scores": [
+        0.163,
+        0.163,
+        0.162,
+        0.158,
+        0.154
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "shore",
+        "romans",
+        "machines",
+        "lion",
+        "surfing"
+      ],
+      "scores": [
+        0.179,
+        0.161,
+        0.16,
+        0.159,
+        0.158
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "concor",
+        "supdates",
+        "germin",
+        "quest",
+        "usnews"
+      ],
+      "scores": [
+        0.174,
+        0.174,
+        0.172,
+        0.172,
+        0.167
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "flirt",
+        "mamamoo",
+        "qant",
+        "anglia",
+        "kingfisher"
+      ],
+      "scores": [
+        0.188,
+        0.182,
+        0.176,
+        0.175,
+        0.175
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "cadbury",
+        "oural",
+        "fert",
+        "groot",
+        "mol"
+      ],
+      "scores": [
+        0.195,
+        0.193,
+        0.177,
+        0.173,
+        0.171
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "original",
+        "filmed",
+        "contex",
+        "hype",
+        "directioners"
+      ],
+      "scores": [
+        0.199,
+        0.193,
+        0.189,
+        0.167,
+        0.165
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "leads",
+        "flips",
+        "\u00f0\u0141\u0133\u012f\u00f0\u0141\u0133\u012f\u00f0\u0141\u0133\u012f",
+        "occurs",
+        "sfa"
+      ],
+      "scores": [
+        0.197,
+        0.191,
+        0.169,
+        0.169,
+        0.169
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "alestine",
+        "foodie",
+        "pafc",
+        "rte",
+        "\u00f0\u0141\u0129\u00ba"
+      ],
+      "scores": [
+        0.183,
+        0.177,
+        0.175,
+        0.168,
+        0.162
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "mahesh",
+        "segu",
+        "nev",
+        "akhi",
+        "human"
+      ],
+      "scores": [
+        0.204,
+        0.188,
+        0.173,
+        0.173,
+        0.172
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "souvenirs",
+        "kobe",
+        "belie",
+        "journals",
+        "blinded"
+      ],
+      "scores": [
+        0.176,
+        0.175,
+        0.174,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "pula",
+        "dunedin",
+        "exotic",
+        "alpine",
+        "octagon"
+      ],
+      "scores": [
+        0.168,
+        0.167,
+        0.162,
+        0.161,
+        0.16
+      ]
+    }
+  ],
+  "coop_ctx_art_painting_seed1": [
+    {
+      "position": 0,
+      "tokens": [
+        "varian",
+        "alger",
+        "luis",
+        "argon",
+        "propag"
+      ],
+      "scores": [
+        0.229,
+        0.182,
+        0.179,
+        0.179,
+        0.176
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "\u00e0\u00aa",
+        "sphe",
+        "thik",
+        "\u00e0\u00a4\u00b2",
+        "\u00e2\u0123\u00a9"
+      ],
+      "scores": [
+        0.176,
+        0.169,
+        0.169,
+        0.162,
+        0.161
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "oster",
+        "propor",
+        "\u00f0\u013f\u0139",
+        "market",
+        "matchup"
+      ],
+      "scores": [
+        0.216,
+        0.182,
+        0.169,
+        0.168,
+        0.164
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "anne",
+        "merton",
+        "my",
+        "nicholas",
+        "gracie"
+      ],
+      "scores": [
+        0.199,
+        0.192,
+        0.18,
+        0.171,
+        0.169
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "ami",
+        "bestfan",
+        "astro",
+        "worldo",
+        "anci"
+      ],
+      "scores": [
+        0.188,
+        0.173,
+        0.171,
+        0.169,
+        0.168
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "kimono",
+        "kurdi",
+        "sandra",
+        "mou",
+        "sunday"
+      ],
+      "scores": [
+        0.194,
+        0.179,
+        0.177,
+        0.176,
+        0.167
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "iver",
+        "col",
+        "nostal",
+        "tesco",
+        "hunt"
+      ],
+      "scores": [
+        0.194,
+        0.182,
+        0.172,
+        0.17,
+        0.168
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "with",
+        "snapp",
+        "capsule",
+        "stainless",
+        "khaled"
+      ],
+      "scores": [
+        0.172,
+        0.164,
+        0.162,
+        0.162,
+        0.157
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "prac",
+        "spidey",
+        "\u00f0\u0141\u0131\u00bb",
+        "measuring",
+        "\u00f0\u0141\u013a\u00b9\u00f0\u0141\u013a\u00b9"
+      ],
+      "scores": [
+        0.179,
+        0.175,
+        0.172,
+        0.171,
+        0.167
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "phili",
+        "astor",
+        "nicholas",
+        "getty",
+        "joh"
+      ],
+      "scores": [
+        0.203,
+        0.187,
+        0.187,
+        0.186,
+        0.182
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "am",
+        "flying",
+        "?",
+        "wong",
+        "reader"
+      ],
+      "scores": [
+        0.169,
+        0.169,
+        0.159,
+        0.156,
+        0.151
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "pseudo",
+        "hamp",
+        "\u00e2\u0131\u00b3",
+        "indian",
+        "kean"
+      ],
+      "scores": [
+        0.171,
+        0.167,
+        0.164,
+        0.162,
+        0.16
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "iche",
+        "watch",
+        "haus",
+        "summer",
+        "quoi"
+      ],
+      "scores": [
+        0.177,
+        0.176,
+        0.174,
+        0.17,
+        0.16
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "quilt",
+        "thumbnail",
+        "globalhealth",
+        "stitches",
+        "bbce"
+      ],
+      "scores": [
+        0.203,
+        0.193,
+        0.179,
+        0.176,
+        0.175
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "cloth",
+        "\u00f0\u0141\u0129\u00ae\u00f0\u0141\u0129",
+        "down",
+        "noses",
+        "ing"
+      ],
+      "scores": [
+        0.181,
+        0.17,
+        0.17,
+        0.162,
+        0.157
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "ipl",
+        "pixelart",
+        "localized",
+        "ctv",
+        "\u00ea\u00b0\u0135\u00ec\u0126\u00b8\u00eb\u00b8\u0132"
+      ],
+      "scores": [
+        0.198,
+        0.186,
+        0.182,
+        0.179,
+        0.176
+      ]
+    }
+  ],
+  "coop_ctx_art_painting_seed2": [
+    {
+      "position": 0,
+      "tokens": [
+        "repeated",
+        "choose",
+        "bilingual",
+        "contract",
+        "blum"
+      ],
+      "scores": [
+        0.195,
+        0.179,
+        0.169,
+        0.167,
+        0.166
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "\u00f0\u0141\u013a\u00b2",
+        "&",
+        "thepersonalnetwork",
+        "iq",
+        "gta"
+      ],
+      "scores": [
+        0.181,
+        0.171,
+        0.169,
+        0.165,
+        0.165
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "pnp",
+        "robust",
+        "basics",
+        "fig",
+        "usa"
+      ],
+      "scores": [
+        0.2,
+        0.185,
+        0.184,
+        0.176,
+        0.17
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "rame",
+        "gerry",
+        "magne",
+        "assortment",
+        "battersea"
+      ],
+      "scores": [
+        0.176,
+        0.174,
+        0.169,
+        0.167,
+        0.165
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "\u00f0\u0141\u0133\u012f\u00f0\u0141\u0131\u00bc",
+        "onet",
+        "competen",
+        "mcdonnell",
+        "\u00f0\u0141\u0133\u012f\u00f0\u0141\u0131\u00bb"
+      ],
+      "scores": [
+        0.176,
+        0.17,
+        0.169,
+        0.169,
+        0.166
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "resist",
+        "eliminated",
+        "feeds",
+        "\u00f0\u0141\u013a\u012d",
+        "knocked"
+      ],
+      "scores": [
+        0.188,
+        0.186,
+        0.175,
+        0.174,
+        0.174
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "extru",
+        "glastonbury",
+        "struction",
+        "gray",
+        "hardwood"
+      ],
+      "scores": [
+        0.193,
+        0.19,
+        0.187,
+        0.187,
+        0.183
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "shenan",
+        "marque",
+        "s",
+        "hug",
+        "oce"
+      ],
+      "scores": [
+        0.192,
+        0.186,
+        0.183,
+        0.181,
+        0.177
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "conservation",
+        "lief",
+        "abre",
+        "\u00d1\u0126\u00d0\u00be\u00d1\u0124",
+        "ventil"
+      ],
+      "scores": [
+        0.207,
+        0.187,
+        0.18,
+        0.171,
+        0.17
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "\u00e2\u0142\u0122",
+        "tutorial",
+        "\u00f0\u0141\u0129\u00a9\u00f0\u0141\u0129",
+        "disab",
+        "elusive"
+      ],
+      "scores": [
+        0.196,
+        0.177,
+        0.177,
+        0.177,
+        0.174
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "truckers",
+        "acar",
+        "caddy",
+        "kiba",
+        "frat"
+      ],
+      "scores": [
+        0.177,
+        0.174,
+        0.169,
+        0.159,
+        0.157
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "\u00c3\u00b3",
+        "everton",
+        "fes",
+        "cold",
+        "ard"
+      ],
+      "scores": [
+        0.178,
+        0.175,
+        0.164,
+        0.163,
+        0.162
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "stand",
+        "vox",
+        "version",
+        "spi",
+        "dr"
+      ],
+      "scores": [
+        0.171,
+        0.17,
+        0.16,
+        0.159,
+        0.158
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "securing",
+        "silent",
+        "rebuilt",
+        "worked",
+        "grab"
+      ],
+      "scores": [
+        0.179,
+        0.176,
+        0.173,
+        0.171,
+        0.17
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "wacky",
+        "\u00e2\u013a\u013f",
+        "sq",
+        "mega",
+        "biom"
+      ],
+      "scores": [
+        0.184,
+        0.182,
+        0.173,
+        0.172,
+        0.171
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "each",
+        "inspirational",
+        "secret",
+        "paper",
+        "robbed"
+      ],
+      "scores": [
+        0.19,
+        0.171,
+        0.167,
+        0.167,
+        0.165
+      ]
+    }
+  ],
+  "coop_ctx_cartoon_seed0": [
+    {
+      "position": 0,
+      "tokens": [
+        "motherland",
+        "meridian",
+        "sprint",
+        "destin",
+        "a"
+      ],
+      "scores": [
+        0.189,
+        0.18,
+        0.17,
+        0.164,
+        0.159
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "gt",
+        "oscar",
+        "fd",
+        "antony",
+        "noel"
+      ],
+      "scores": [
+        0.193,
+        0.165,
+        0.162,
+        0.151,
+        0.149
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "moul",
+        "yaku",
+        "co",
+        "meu",
+        "priest"
+      ],
+      "scores": [
+        0.196,
+        0.173,
+        0.171,
+        0.168,
+        0.158
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "parte",
+        "~",
+        "hana",
+        "otr",
+        "\"?"
+      ],
+      "scores": [
+        0.196,
+        0.179,
+        0.175,
+        0.169,
+        0.169
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "reel",
+        "interven",
+        "rep",
+        "ru",
+        "an"
+      ],
+      "scores": [
+        0.176,
+        0.171,
+        0.171,
+        0.169,
+        0.158
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "wel",
+        "un",
+        "integr",
+        "unfollow",
+        "inve"
+      ],
+      "scores": [
+        0.188,
+        0.185,
+        0.166,
+        0.165,
+        0.162
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "sare",
+        "shopping",
+        "\u00a3",
+        "forza",
+        "british"
+      ],
+      "scores": [
+        0.166,
+        0.163,
+        0.16,
+        0.159,
+        0.156
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "usnews",
+        "\u00f0\u0141\u0134\u0125\u00f0\u0141\u0134\u0125",
+        "hast",
+        "rc",
+        "premieres"
+      ],
+      "scores": [
+        0.206,
+        0.193,
+        0.179,
+        0.171,
+        0.171
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "fav",
+        "them",
+        "7",
+        "6",
+        "3"
+      ],
+      "scores": [
+        0.2,
+        0.198,
+        0.195,
+        0.178,
+        0.177
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "khal",
+        "germans",
+        "eighteen",
+        "hef",
+        "\u00f0\u0141\u0129\u00ba\u00f0\u0141\u0129"
+      ],
+      "scores": [
+        0.183,
+        0.175,
+        0.171,
+        0.166,
+        0.166
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "expan",
+        "vinyl",
+        "renais",
+        "revi",
+        "kati"
+      ],
+      "scores": [
+        0.178,
+        0.171,
+        0.166,
+        0.166,
+        0.162
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "stretching",
+        "designs",
+        "desig",
+        "dfs",
+        "dach"
+      ],
+      "scores": [
+        0.174,
+        0.165,
+        0.165,
+        0.162,
+        0.161
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "consciously",
+        "caps",
+        "maine",
+        "\\",
+        "?"
+      ],
+      "scores": [
+        0.175,
+        0.175,
+        0.173,
+        0.165,
+        0.16
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "twdfamily",
+        "mahi",
+        "authent",
+        "dala",
+        "segu"
+      ],
+      "scores": [
+        0.183,
+        0.176,
+        0.172,
+        0.17,
+        0.169
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "juju",
+        "wonders",
+        "recognizes",
+        "recalls",
+        "recognize"
+      ],
+      "scores": [
+        0.194,
+        0.181,
+        0.18,
+        0.174,
+        0.166
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "euph",
+        "pascu",
+        "comparative",
+        "jak",
+        "naacp"
+      ],
+      "scores": [
+        0.188,
+        0.172,
+        0.172,
+        0.166,
+        0.166
+      ]
+    }
+  ],
+  "coop_ctx_cartoon_seed1": [
+    {
+      "position": 0,
+      "tokens": [
+        "conor",
+        "rise",
+        "kaj",
+        "\u00f0\u0141\u013a\u012c",
+        "etr"
+      ],
+      "scores": [
+        0.176,
+        0.168,
+        0.167,
+        0.165,
+        0.163
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "<start_of_text>",
+        "@",
+        "\u00e0\u00b8\u00b4",
+        "\u00d8\u00a7",
+        "#@"
+      ],
+      "scores": [
+        0.243,
+        0.194,
+        0.192,
+        0.183,
+        0.179
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "mastermind",
+        "ratt",
+        "spraying",
+        "twitart",
+        "studies"
+      ],
+      "scores": [
+        0.181,
+        0.171,
+        0.169,
+        0.166,
+        0.165
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "leur",
+        "timate",
+        "cultivation",
+        "gracie",
+        "tarmac"
+      ],
+      "scores": [
+        0.198,
+        0.194,
+        0.175,
+        0.17,
+        0.169
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "publix",
+        "brasil",
+        ":]",
+        "image",
+        "sakura"
+      ],
+      "scores": [
+        0.194,
+        0.192,
+        0.175,
+        0.17,
+        0.17
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "kimono",
+        "moon",
+        "moon",
+        "\u00ec\u0128",
+        "gerald"
+      ],
+      "scores": [
+        0.209,
+        0.195,
+        0.173,
+        0.169,
+        0.168
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "nostal",
+        "col",
+        "draw",
+        "\u00f0\u0141\u0131\u00b3\u00ef\u00b8\u0131\u00e2\u0122\u012f",
+        "drew"
+      ],
+      "scores": [
+        0.177,
+        0.176,
+        0.174,
+        0.169,
+        0.167
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "gillian",
+        "paddy",
+        "vscocam",
+        "paddy",
+        "smoo"
+      ],
+      "scores": [
+        0.18,
+        0.171,
+        0.168,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "tpp",
+        "measuring",
+        "spidey",
+        "raps",
+        "tracing"
+      ],
+      "scores": [
+        0.188,
+        0.177,
+        0.176,
+        0.172,
+        0.171
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        ")'",
+        "<start_of_text>",
+        "[",
+        "antoine",
+        "\u00dd"
+      ],
+      "scores": [
+        0.199,
+        0.199,
+        0.19,
+        0.184,
+        0.183
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "?",
+        "l",
+        "'m",
+        "tk",
+        "ef"
+      ],
+      "scores": [
+        0.187,
+        0.186,
+        0.177,
+        0.174,
+        0.164
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "welcome",
+        "wet",
+        "venezu",
+        "_'",
+        "\u00ed\u0136"
+      ],
+      "scores": [
+        0.177,
+        0.176,
+        0.172,
+        0.167,
+        0.163
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "efish",
+        "haus",
+        "crack",
+        "\u00c3\u00b1os",
+        "swiss"
+      ],
+      "scores": [
+        0.177,
+        0.172,
+        0.172,
+        0.172,
+        0.168
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "valentines",
+        "playin",
+        "booking",
+        "athers",
+        "chiroprac"
+      ],
+      "scores": [
+        0.158,
+        0.156,
+        0.154,
+        0.153,
+        0.153
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "cloth",
+        "wallpaper",
+        "look",
+        "church",
+        "drops"
+      ],
+      "scores": [
+        0.211,
+        0.174,
+        0.164,
+        0.164,
+        0.164
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "issue",
+        "commemorate",
+        "metrical",
+        "pattern",
+        "instance"
+      ],
+      "scores": [
+        0.197,
+        0.19,
+        0.182,
+        0.179,
+        0.178
+      ]
+    }
+  ],
+  "coop_ctx_cartoon_seed2": [
+    {
+      "position": 0,
+      "tokens": [
+        "illo",
+        "kinder",
+        "michal",
+        "clemson",
+        "pap"
+      ],
+      "scores": [
+        0.187,
+        0.167,
+        0.167,
+        0.155,
+        0.153
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "iq",
+        "zi",
+        "gta",
+        "bun",
+        "zey"
+      ],
+      "scores": [
+        0.173,
+        0.165,
+        0.158,
+        0.157,
+        0.155
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "debate",
+        "toolkit",
+        "educator",
+        "acids",
+        "fight"
+      ],
+      "scores": [
+        0.182,
+        0.174,
+        0.171,
+        0.17,
+        0.167
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "ru",
+        "sora",
+        "gibr",
+        "alad",
+        "skey"
+      ],
+      "scores": [
+        0.18,
+        0.173,
+        0.172,
+        0.171,
+        0.17
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "mcdonnell",
+        "able",
+        "orig",
+        "fil",
+        "sandals"
+      ],
+      "scores": [
+        0.204,
+        0.19,
+        0.175,
+        0.175,
+        0.174
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "playful",
+        "feeds",
+        "proclaimed",
+        "violated",
+        "\u00f0\u0141\u013a\u012f\u00f0\u0141\u013a\u012f\u00f0\u0141\u013a\u012f\u00f0\u0141\u013a\u012f"
+      ],
+      "scores": [
+        0.21,
+        0.205,
+        0.204,
+        0.186,
+        0.181
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "lucas",
+        "awful",
+        "apocalyptic",
+        "assessing",
+        "reluctant"
+      ],
+      "scores": [
+        0.167,
+        0.166,
+        0.165,
+        0.157,
+        0.156
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "carl",
+        "cere",
+        "cb",
+        "rocky",
+        "carab"
+      ],
+      "scores": [
+        0.175,
+        0.172,
+        0.165,
+        0.164,
+        0.161
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "heidi",
+        "conservation",
+        "ventilation",
+        "arom",
+        "excel"
+      ],
+      "scores": [
+        0.199,
+        0.193,
+        0.184,
+        0.177,
+        0.173
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "trap",
+        "hungry",
+        "grav",
+        "plantbased",
+        "gori"
+      ],
+      "scores": [
+        0.169,
+        0.167,
+        0.166,
+        0.164,
+        0.161
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "acar",
+        "aand",
+        "intram",
+        "nba",
+        "truckers"
+      ],
+      "scores": [
+        0.186,
+        0.175,
+        0.174,
+        0.172,
+        0.16
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "kei",
+        "fing",
+        "idan",
+        "dirty",
+        "andy"
+      ],
+      "scores": [
+        0.186,
+        0.184,
+        0.175,
+        0.172,
+        0.166
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "famer",
+        "ers",
+        "er",
+        "stand",
+        "names"
+      ],
+      "scores": [
+        0.185,
+        0.172,
+        0.17,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "pl",
+        "vive",
+        "rf",
+        "be",
+        "encoun"
+      ],
+      "scores": [
+        0.19,
+        0.189,
+        0.18,
+        0.18,
+        0.178
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "inian",
+        "biom",
+        "backyard",
+        "\u00f0\u0141\u0131\u0128",
+        "\u00f0\u0141\u013a\u012b"
+      ],
+      "scores": [
+        0.184,
+        0.172,
+        0.17,
+        0.17,
+        0.169
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "illion",
+        "dollars",
+        "thal",
+        "automate",
+        "hendrick"
+      ],
+      "scores": [
+        0.2,
+        0.177,
+        0.173,
+        0.17,
+        0.169
+      ]
+    }
+  ],
+  "coop_ctx_photo_seed0": [
+    {
+      "position": 0,
+      "tokens": [
+        "meridian",
+        "motherland",
+        "\u00f0\u0141\u00a7\u00a1",
+        "wilkins",
+        "hv"
+      ],
+      "scores": [
+        0.181,
+        0.175,
+        0.174,
+        0.17,
+        0.166
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "benn",
+        "bendigo",
+        "cromwell",
+        "nison",
+        "fman"
+      ],
+      "scores": [
+        0.191,
+        0.185,
+        0.183,
+        0.173,
+        0.172
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "portsm",
+        "\u00f0\u0141\u012e\u00be",
+        "melvin",
+        "coordin",
+        "urday"
+      ],
+      "scores": [
+        0.18,
+        0.176,
+        0.174,
+        0.174,
+        0.174
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "/.",
+        "zr",
+        "dious",
+        "santo",
+        "gula"
+      ],
+      "scores": [
+        0.182,
+        0.172,
+        0.168,
+        0.167,
+        0.166
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "\"@",
+        "<start_of_text>",
+        "'@",
+        "retweeted",
+        "@"
+      ],
+      "scores": [
+        0.211,
+        0.196,
+        0.192,
+        0.19,
+        0.184
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "ten",
+        "\u00e0\u00b8\u00aa",
+        "\u00e2\u0143\u0132\u00ef\u00b8\u0131\u00e2\u0143\u0132\u00ef\u00b8\u0131",
+        "achiev",
+        "hl"
+      ],
+      "scores": [
+        0.183,
+        0.176,
+        0.174,
+        0.172,
+        0.167
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "ffer",
+        "mming",
+        "format",
+        "shopping",
+        "pepper"
+      ],
+      "scores": [
+        0.197,
+        0.173,
+        0.173,
+        0.17,
+        0.161
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "uss",
+        "hast",
+        "c",
+        "re",
+        "uc"
+      ],
+      "scores": [
+        0.197,
+        0.189,
+        0.185,
+        0.183,
+        0.182
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "\u0128",
+        "a",
+        "growers",
+        "hc",
+        "shs"
+      ],
+      "scores": [
+        0.178,
+        0.173,
+        0.161,
+        0.159,
+        0.158
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "oural",
+        "eth",
+        "shazam",
+        "zealand",
+        "greet"
+      ],
+      "scores": [
+        0.192,
+        0.169,
+        0.164,
+        0.164,
+        0.162
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "\u00ec\u0126\u00b8\u00eb\u00b8",
+        "compact",
+        "messenger",
+        "pos",
+        "import"
+      ],
+      "scores": [
+        0.22,
+        0.176,
+        0.173,
+        0.172,
+        0.169
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "\u00e0\u00b8",
+        "][",
+        "us",
+        "pd",
+        "sig"
+      ],
+      "scores": [
+        0.179,
+        0.174,
+        0.171,
+        0.169,
+        0.168
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "adelaide",
+        "maine",
+        "etu",
+        "ama",
+        "cork"
+      ],
+      "scores": [
+        0.18,
+        0.159,
+        0.155,
+        0.153,
+        0.152
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "millan",
+        "resur",
+        "segu",
+        "just",
+        "therine"
+      ],
+      "scores": [
+        0.204,
+        0.18,
+        0.169,
+        0.169,
+        0.166
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "simba",
+        "answe",
+        "yess",
+        "moth",
+        "ters"
+      ],
+      "scores": [
+        0.185,
+        0.178,
+        0.171,
+        0.167,
+        0.164
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "funko",
+        "killarney",
+        "recruited",
+        "impressionist",
+        "horoscope"
+      ],
+      "scores": [
+        0.191,
+        0.19,
+        0.185,
+        0.185,
+        0.181
+      ]
+    }
+  ],
+  "coop_ctx_photo_seed1": [
+    {
+      "position": 0,
+      "tokens": [
+        "\u00d4",
+        "\u00f0\u0141\u00a4\u00a6",
+        "\u0138\u00ef\u00b8\u0131",
+        "liberty",
+        "keeper"
+      ],
+      "scores": [
+        0.195,
+        0.192,
+        0.184,
+        0.18,
+        0.179
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "deo",
+        "\u00f0\u0141\u013a\u012c\u00e2\u013f\u00a4\u00ef\u00b8\u0131",
+        "\u00f0\u0141\u013a\u0125",
+        "\u00d8\u00a7",
+        "partying"
+      ],
+      "scores": [
+        0.198,
+        0.189,
+        0.181,
+        0.178,
+        0.177
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "\u00f0\u0141\u013a\u00ac",
+        "propor",
+        "\u00ec\u0137",
+        "puc",
+        "affe"
+      ],
+      "scores": [
+        0.21,
+        0.165,
+        0.161,
+        0.161,
+        0.161
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "gracie",
+        "\u00e0\u00a7",
+        "schi",
+        "merton",
+        "wiley"
+      ],
+      "scores": [
+        0.214,
+        0.19,
+        0.173,
+        0.173,
+        0.172
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "euro",
+        "ance",
+        "\u00e0\u00b8\u00a7",
+        "astro",
+        "nsc"
+      ],
+      "scores": [
+        0.177,
+        0.175,
+        0.174,
+        0.171,
+        0.162
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "ani",
+        "wra",
+        "mou",
+        "nel",
+        "post"
+      ],
+      "scores": [
+        0.194,
+        0.182,
+        0.179,
+        0.178,
+        0.172
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "gros",
+        "col",
+        "\u00f0\u0141\u0131\u00b3\u00ef\u00b8\u0131\u00e2\u0122\u012f",
+        "better",
+        "hero"
+      ],
+      "scores": [
+        0.203,
+        0.19,
+        0.187,
+        0.18,
+        0.179
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "mathew",
+        "gamo",
+        "kov",
+        "fedora",
+        "\u00f0\u013f\u0139"
+      ],
+      "scores": [
+        0.159,
+        0.157,
+        0.153,
+        0.151,
+        0.15
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "whos",
+        "\u00f0\u0141\u0131\u00bb",
+        "prac",
+        "sto",
+        "jock"
+      ],
+      "scores": [
+        0.181,
+        0.18,
+        0.177,
+        0.175,
+        0.164
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "clive",
+        "aon",
+        "clive",
+        "szn",
+        "sundays"
+      ],
+      "scores": [
+        0.232,
+        0.186,
+        0.184,
+        0.18,
+        0.17
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "w",
+        "winni",
+        "br",
+        "carl",
+        "wig"
+      ],
+      "scores": [
+        0.227,
+        0.196,
+        0.182,
+        0.166,
+        0.162
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "\u00ed\u0136",
+        "\u0124\u00e2\u0138",
+        "bridesma",
+        "extin",
+        "\u00e5\u00b9"
+      ],
+      "scores": [
+        0.206,
+        0.177,
+        0.176,
+        0.175,
+        0.174
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "nears",
+        "watch",
+        "iche",
+        "century",
+        "watched"
+      ],
+      "scores": [
+        0.184,
+        0.183,
+        0.181,
+        0.169,
+        0.168
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "cotton",
+        "galleria",
+        "clay",
+        "ferrell",
+        "dustin"
+      ],
+      "scores": [
+        0.175,
+        0.171,
+        0.167,
+        0.165,
+        0.162
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "ing",
+        "cloth",
+        "ted",
+        "rajput",
+        "ith"
+      ],
+      "scores": [
+        0.185,
+        0.169,
+        0.158,
+        0.156,
+        0.152
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "clipping",
+        "kasi",
+        "dutton",
+        "sping",
+        "natureuk"
+      ],
+      "scores": [
+        0.181,
+        0.177,
+        0.177,
+        0.175,
+        0.172
+      ]
+    }
+  ],
+  "coop_ctx_photo_seed2": [
+    {
+      "position": 0,
+      "tokens": [
+        "hardcover",
+        "blum",
+        "acs",
+        "homeless",
+        "machin"
+      ],
+      "scores": [
+        0.203,
+        0.183,
+        0.182,
+        0.179,
+        0.176
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "\u0142",
+        "\u00f0\u0141\u013a\u00b2",
+        "zy",
+        "\u00e2\u0143\u0132\u00ef\u00b8\u0131\u00e2\u0143\u0132\u00ef\u00b8\u0131",
+        "&"
+      ],
+      "scores": [
+        0.178,
+        0.177,
+        0.168,
+        0.164,
+        0.164
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "\u00e2\u0126\u00b9",
+        "southafrica",
+        "brunette",
+        "ites",
+        "ead"
+      ],
+      "scores": [
+        0.188,
+        0.18,
+        0.173,
+        0.173,
+        0.167
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "gerry",
+        "masonry",
+        "millan",
+        "camouflage",
+        "mcil"
+      ],
+      "scores": [
+        0.173,
+        0.171,
+        0.17,
+        0.169,
+        0.163
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "mcdonnell",
+        "abo",
+        "odisha",
+        "labra",
+        "adirond"
+      ],
+      "scores": [
+        0.193,
+        0.175,
+        0.171,
+        0.167,
+        0.166
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "knocked",
+        "striking",
+        "visited",
+        "reminded",
+        "violated"
+      ],
+      "scores": [
+        0.202,
+        0.197,
+        0.193,
+        0.179,
+        0.177
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "regret",
+        "inviting",
+        "apocalyptic",
+        "reluctant",
+        "alter"
+      ],
+      "scores": [
+        0.185,
+        0.179,
+        0.175,
+        0.171,
+        0.168
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "vak",
+        "yak",
+        "yuv",
+        "inju",
+        "shia"
+      ],
+      "scores": [
+        0.191,
+        0.176,
+        0.173,
+        0.171,
+        0.17
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "humbold",
+        "conservation",
+        "humboldt",
+        "wether",
+        "dnr"
+      ],
+      "scores": [
+        0.195,
+        0.193,
+        0.185,
+        0.175,
+        0.174
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "\u00f0\u0141\u00a4\u00a6",
+        "tutorial",
+        "sciart",
+        "hungry",
+        "\u00e3\u0127"
+      ],
+      "scores": [
+        0.199,
+        0.192,
+        0.173,
+        0.17,
+        0.167
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "kiba",
+        "aand",
+        "sa",
+        "temple",
+        "goal"
+      ],
+      "scores": [
+        0.179,
+        0.163,
+        0.159,
+        0.152,
+        0.151
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "tory",
+        "growingup",
+        "xe",
+        "trage",
+        "raine"
+      ],
+      "scores": [
+        0.181,
+        0.178,
+        0.167,
+        0.167,
+        0.162
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "er",
+        "names",
+        "___",
+        "spi",
+        "stand"
+      ],
+      "scores": [
+        0.169,
+        0.156,
+        0.156,
+        0.152,
+        0.151
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "encoun",
+        "begg",
+        "d",
+        "wro",
+        "sportsman"
+      ],
+      "scores": [
+        0.204,
+        0.169,
+        0.167,
+        0.164,
+        0.162
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "\u00f0\u0141\u0131\u0128",
+        "\u00e2\u0138\u00aa",
+        "msu",
+        "\u00f0\u0141\u0129\u00b8\u00f0\u0141\u0129\u00aa",
+        "instaweather"
+      ],
+      "scores": [
+        0.18,
+        0.171,
+        0.17,
+        0.17,
+        0.169
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "miller",
+        "r",
+        "bler",
+        "cruiser",
+        "l"
+      ],
+      "scores": [
+        0.171,
+        0.171,
+        0.165,
+        0.162,
+        0.16
+      ]
+    }
+  ],
+  "coop_ctx_sketch_seed0": [
+    {
+      "position": 0,
+      "tokens": [
+        "meridian",
+        "magento",
+        "motherland",
+        "anath",
+        "realms"
+      ],
+      "scores": [
+        0.192,
+        0.176,
+        0.171,
+        0.169,
+        0.163
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "zon",
+        "andrews",
+        "mr",
+        "endorsing",
+        "george"
+      ],
+      "scores": [
+        0.167,
+        0.162,
+        0.16,
+        0.159,
+        0.158
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "prem",
+        "quin",
+        "moul",
+        "disciples",
+        "paral"
+      ],
+      "scores": [
+        0.202,
+        0.184,
+        0.181,
+        0.168,
+        0.166
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "/.",
+        "supports",
+        "zr",
+        "dious",
+        "dek"
+      ],
+      "scores": [
+        0.183,
+        0.183,
+        0.168,
+        0.163,
+        0.162
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "fem",
+        "blogg",
+        "lim",
+        "splendor",
+        "rama"
+      ],
+      "scores": [
+        0.177,
+        0.164,
+        0.162,
+        0.158,
+        0.158
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "sains",
+        "stallions",
+        "today",
+        "gano",
+        "gfs"
+      ],
+      "scores": [
+        0.196,
+        0.183,
+        0.177,
+        0.169,
+        0.169
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "river",
+        "ffer",
+        "format",
+        "etsy",
+        "shopping"
+      ],
+      "scores": [
+        0.186,
+        0.177,
+        0.163,
+        0.162,
+        0.161
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "hast",
+        "concor",
+        "regre",
+        "bringing",
+        "religi"
+      ],
+      "scores": [
+        0.198,
+        0.191,
+        0.165,
+        0.164,
+        0.162
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "fav",
+        "parisian",
+        "3",
+        "6",
+        "\u0128"
+      ],
+      "scores": [
+        0.193,
+        0.193,
+        0.177,
+        0.174,
+        0.171
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "khal",
+        "nord",
+        "ml",
+        "urve",
+        "internet"
+      ],
+      "scores": [
+        0.182,
+        0.181,
+        0.176,
+        0.174,
+        0.173
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "cos",
+        "sail",
+        "starrer",
+        "crossover",
+        "venture"
+      ],
+      "scores": [
+        0.202,
+        0.176,
+        0.174,
+        0.166,
+        0.166
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "us",
+        "dach",
+        "jave",
+        "stjohn",
+        "\u00f0\u0141\u00a4\u00b7"
+      ],
+      "scores": [
+        0.205,
+        0.183,
+        0.173,
+        0.171,
+        0.167
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "fications",
+        "caps",
+        "ugby",
+        "foodie",
+        "?"
+      ],
+      "scores": [
+        0.177,
+        0.174,
+        0.172,
+        0.172,
+        0.171
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "segu",
+        "serviced",
+        "kwang",
+        "meer",
+        "cask"
+      ],
+      "scores": [
+        0.178,
+        0.165,
+        0.165,
+        0.164,
+        0.163
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "juju",
+        "cees",
+        "illusion",
+        "endthe",
+        "distracted"
+      ],
+      "scores": [
+        0.175,
+        0.171,
+        0.167,
+        0.167,
+        0.165
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "idyllic",
+        "elfie",
+        "footballer",
+        "bby",
+        "paparazzi"
+      ],
+      "scores": [
+        0.199,
+        0.17,
+        0.166,
+        0.163,
+        0.157
+      ]
+    }
+  ],
+  "coop_ctx_sketch_seed1": [
+    {
+      "position": 0,
+      "tokens": [
+        "lis",
+        "maiden",
+        "dart",
+        "falling",
+        "zan"
+      ],
+      "scores": [
+        0.193,
+        0.177,
+        0.175,
+        0.174,
+        0.169
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "<start_of_text>",
+        "?@",
+        ")!",
+        "!!@",
+        "!!!!!!!!!"
+      ],
+      "scores": [
+        0.344,
+        0.19,
+        0.178,
+        0.172,
+        0.168
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "hundre",
+        "number",
+        "nard",
+        "iloveart",
+        "toe"
+      ],
+      "scores": [
+        0.203,
+        0.195,
+        0.195,
+        0.181,
+        0.177
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "\u00e0\u00a7",
+        "dinah",
+        "martini",
+        "patrick",
+        "merton"
+      ],
+      "scores": [
+        0.183,
+        0.183,
+        0.176,
+        0.175,
+        0.17
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "gui",
+        "nsc",
+        "astro",
+        "tyson",
+        "patient"
+      ],
+      "scores": [
+        0.204,
+        0.197,
+        0.195,
+        0.187,
+        0.171
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "kurdi",
+        "natu",
+        "mou",
+        "ante",
+        "guerrero"
+      ],
+      "scores": [
+        0.214,
+        0.176,
+        0.169,
+        0.168,
+        0.153
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "jelly",
+        "col",
+        "yann",
+        "nostal",
+        "cad"
+      ],
+      "scores": [
+        0.185,
+        0.183,
+        0.182,
+        0.176,
+        0.171
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "ffer",
+        "mort",
+        "thermo",
+        "savag",
+        "degra"
+      ],
+      "scores": [
+        0.177,
+        0.163,
+        0.162,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "prac",
+        "\u00f0\u0141\u0131\u00bb",
+        "assessing",
+        "whos",
+        "mrc"
+      ],
+      "scores": [
+        0.196,
+        0.183,
+        0.176,
+        0.167,
+        0.163
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "christian",
+        "virginia",
+        "phili",
+        "szn",
+        "alberto"
+      ],
+      "scores": [
+        0.181,
+        0.179,
+        0.179,
+        0.177,
+        0.175
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "wn",
+        "elan",
+        "gb",
+        "wj",
+        "w"
+      ],
+      "scores": [
+        0.188,
+        0.182,
+        0.181,
+        0.18,
+        0.176
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "opening",
+        "pains",
+        "avril",
+        "woof",
+        "\u00c3\u00a3"
+      ],
+      "scores": [
+        0.182,
+        0.175,
+        0.172,
+        0.167,
+        0.165
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "watch",
+        "summer",
+        "are",
+        "ie",
+        "ja"
+      ],
+      "scores": [
+        0.196,
+        0.183,
+        0.18,
+        0.179,
+        0.174
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "cruis",
+        "siss",
+        "thumbnail",
+        "ayurve",
+        "teammates"
+      ],
+      "scores": [
+        0.172,
+        0.172,
+        0.171,
+        0.169,
+        0.166
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "cloth",
+        "noses",
+        "down",
+        "bera",
+        "choc"
+      ],
+      "scores": [
+        0.182,
+        0.162,
+        0.156,
+        0.151,
+        0.148
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "sed",
+        "uff",
+        "spiced",
+        "grabbed",
+        "ratna"
+      ],
+      "scores": [
+        0.202,
+        0.183,
+        0.18,
+        0.174,
+        0.173
+      ]
+    }
+  ],
+  "coop_ctx_sketch_seed2": [
+    {
+      "position": 0,
+      "tokens": [
+        "shirt",
+        "die",
+        "shirts",
+        "illo",
+        "repeated"
+      ],
+      "scores": [
+        0.18,
+        0.179,
+        0.171,
+        0.17,
+        0.168
+      ]
+    },
+    {
+      "position": 1,
+      "tokens": [
+        "eyou",
+        "iq",
+        "cb",
+        "vol",
+        "soul"
+      ],
+      "scores": [
+        0.184,
+        0.178,
+        0.162,
+        0.162,
+        0.158
+      ]
+    },
+    {
+      "position": 2,
+      "tokens": [
+        "debate",
+        "natural",
+        "armad",
+        "ead",
+        "bois"
+      ],
+      "scores": [
+        0.193,
+        0.179,
+        0.176,
+        0.174,
+        0.169
+      ]
+    },
+    {
+      "position": 3,
+      "tokens": [
+        "raiders",
+        "redneck",
+        "assortment",
+        "celeb",
+        "kan"
+      ],
+      "scores": [
+        0.161,
+        0.157,
+        0.156,
+        0.154,
+        0.153
+      ]
+    },
+    {
+      "position": 4,
+      "tokens": [
+        "users",
+        "zum",
+        "able",
+        "motivation",
+        "onet"
+      ],
+      "scores": [
+        0.175,
+        0.173,
+        0.169,
+        0.166,
+        0.165
+      ]
+    },
+    {
+      "position": 5,
+      "tokens": [
+        "knocked",
+        "strauss",
+        "fell",
+        "lovel",
+        "ined"
+      ],
+      "scores": [
+        0.179,
+        0.167,
+        0.162,
+        0.161,
+        0.158
+      ]
+    },
+    {
+      "position": 6,
+      "tokens": [
+        "apocalyptic",
+        "awful",
+        "thesims",
+        "lucas",
+        "assessing"
+      ],
+      "scores": [
+        0.189,
+        0.175,
+        0.174,
+        0.172,
+        0.169
+      ]
+    },
+    {
+      "position": 7,
+      "tokens": [
+        "hug",
+        "asset",
+        "inju",
+        "wrinkles",
+        "sport"
+      ],
+      "scores": [
+        0.193,
+        0.166,
+        0.162,
+        0.162,
+        0.161
+      ]
+    },
+    {
+      "position": 8,
+      "tokens": [
+        "ventilation",
+        "conservation",
+        "prepar",
+        "lief",
+        "ventil"
+      ],
+      "scores": [
+        0.199,
+        0.188,
+        0.186,
+        0.18,
+        0.175
+      ]
+    },
+    {
+      "position": 9,
+      "tokens": [
+        "theme",
+        "\u00f0\u0141\u0129\u00a9\u00f0\u0141\u0129",
+        "sfw",
+        "tutorial",
+        "soph"
+      ],
+      "scores": [
+        0.218,
+        0.179,
+        0.179,
+        0.173,
+        0.172
+      ]
+    },
+    {
+      "position": 10,
+      "tokens": [
+        "detector",
+        "\u00e6\u013a",
+        "acar",
+        "diti",
+        "shoot"
+      ],
+      "scores": [
+        0.193,
+        0.191,
+        0.176,
+        0.174,
+        0.174
+      ]
+    },
+    {
+      "position": 11,
+      "tokens": [
+        "gx",
+        "fes",
+        "fing",
+        "filed",
+        "mnwx"
+      ],
+      "scores": [
+        0.17,
+        0.166,
+        0.165,
+        0.161,
+        0.16
+      ]
+    },
+    {
+      "position": 12,
+      "tokens": [
+        "spi",
+        "funfact",
+        "er",
+        "ers",
+        "__"
+      ],
+      "scores": [
+        0.161,
+        0.158,
+        0.155,
+        0.154,
+        0.154
+      ]
+    },
+    {
+      "position": 13,
+      "tokens": [
+        "silent",
+        "peer",
+        "vive",
+        "rebuilt",
+        "bea"
+      ],
+      "scores": [
+        0.185,
+        0.176,
+        0.174,
+        0.17,
+        0.166
+      ]
+    },
+    {
+      "position": 14,
+      "tokens": [
+        "fine",
+        "elm",
+        "yal",
+        "ry",
+        "\u00f0\u0141\u0133\u0128"
+      ],
+      "scores": [
+        0.184,
+        0.168,
+        0.163,
+        0.159,
+        0.157
+      ]
+    },
+    {
+      "position": 15,
+      "tokens": [
+        "clockwork",
+        "isc",
+        "scentre",
+        "miller",
+        "each"
+      ],
+      "scores": [
+        0.183,
+        0.183,
+        0.175,
+        0.173,
+        0.173
+      ]
+    }
+  ]
+}
